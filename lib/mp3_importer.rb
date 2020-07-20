@@ -13,4 +13,10 @@ class MP3Importer
   def import
     files.each {|file| Song.new_by_filename(file)}
   end
+  
+  def new_by_filename(filename)
+    data = filename.split(/ - |.mp3/)
+    binding.pry
+  end
+  
 end
