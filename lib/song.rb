@@ -12,7 +12,7 @@ class Song
     @@all
   end
   
-  def new_by_filename(filename)
+  def self.new_by_filename(filename)
     data = filename.split(/ - |.mp3/)
     binding.pry
   end
