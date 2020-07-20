@@ -18,6 +18,8 @@ class Song
     name = data[1]
     genre = data[2]
     
+    song = Song.new(name)
+    
     
   end
 end
