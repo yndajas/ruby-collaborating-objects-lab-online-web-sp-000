@@ -19,7 +19,7 @@ class Song
     genre = data[2]
     
     song = Song.new(name)
-    
+    song.artist = Artist.new(artist)
     
   end
 end
