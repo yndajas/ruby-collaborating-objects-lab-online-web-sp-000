@@ -19,6 +19,7 @@ class Song
     genre = data[2]
     
     song = Song.new(name)
+    binding.pry
     song.artist = Artist.new(artist)
     binding.pry
   end
